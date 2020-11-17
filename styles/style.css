@@ -1,0 +1,195 @@
+input[type=text] {
+    width: 50%;
+    height: 5%;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #66a3ff;
+    background-image: repeating-linear-gradient(transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px), repeating-linear-gradient(270deg, transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px);
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #148F77;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+    input[type=submit]:hover {
+        background-color: #0E6655;
+        color: white;
+    }
+
+input[type=checkbox] {
+    font-size: larger;
+    padding: 5px;
+    display: inline-block;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #D6DBDF;
+    padding: 20px;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.label-in {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: inline-block;
+    margin: 10px;
+}
+
+.chckgroup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    display: block;
+    margin: 10px;
+}
+
+header {
+    font-family: 300 20px/1.3 AktivGrotesk,"HelveticaNeue",Arial,Helvetica,sans-serif;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    text-align: center;
+    color: #ECF0F1;
+    width: 100%;
+    height: 100px;
+    background-color: #0B244A;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    line-height: 100px;
+}
+
+.titleDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #ECF0F1;l
+    height: 30px;
+    line-height: 30px;
+    background-color: #5D6D7E;
+}
+
+.backLink {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.head {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    background-color: #A3C4F7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #102B54;
+    font-weight: bold;
+}
+
+    .nav-link:hover {
+        background-color: #0360F0;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        colour: black;
+    }
+
+.titleContainer {
+    border-radius: 5px 10px 0px 0px;
+    border: 2px solid #FCF3CF;
+    box-sizing: border-box;
+    background-color: #F7DC6F;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #26354D;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding: 10px;
+}
+
+.nt-title {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5px;
+}
+
+.nt-links {
+    float: right;
+    margin-left: 40%;
+}
+
+.nt-link {
+    font-weight: bold;
+    font-size: small;
+    display: inline;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F05625;
+}
+
+.note {
+    width: 40%;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+}
+
+.nt-content {
+    background-color: #F9E79F;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.imp {
+    display: block;
+    color: red;
+    font-weight: bold;
+}

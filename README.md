@@ -4,7 +4,7 @@ A Dynamic POST-IT Web App using PHP & MySQL
 
 ## Screenshots
 ![](Screenshots/Capture1.PNG)
-![](Screenshots/Capture2.PNG)
+![](Screenshots/Capture3.PNG)
 
 ## Running instructions:-
 * Start Apache Server
